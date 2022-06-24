@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body {
+    /*height: 100%;  dividir em dois a pagina, mas so se estiver em bottom ou top*/
+    background-image: linear-gradient(to right, #A68953,  #A63C3C)
+    }
+    main {
+        background-color: white;/*ou (fff) que tambem e branco*/
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px #260C16;
+        width: 600px ;
+        padding: 10px;
+        margin: auto;
+        
+    }
+    h1{
+       color: #732D3F;
+       text-align: center;
+       text-shadow: 1px 1px 2px #652837d4;
+    }   
+   
+    h2{
+       color: #260C16;
+       
+    } 
+
+p {
+    text-align: justify;
+}
