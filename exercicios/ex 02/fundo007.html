@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical</title>
+    <style>
+        #container {
+            background-image: url('Imagens/target001.png');
+            background-size: 100% 100%;/* colocou a imagem em 100% de altura e largura*/
+            height: 96vh;
+            position: relative;/* o de fora sempre relativo*/
+            padding: 10px;
+            background-color: brown;
+        }
+
+        #conteudo{
+            position: absolute;/* o de dentro sempre absoluto, para poder configurar duas propriedades*/
+            height: 200px;
+            width: 400px;
+            background-color: darkolivegreen;
+
+            left: 50%;/* colocou 50 para direita */
+            top: 50%;/* colocou 50 para baixo */
+
+            transform: translate(-50%, -50%);
+
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+    
+</body>
+</html>
